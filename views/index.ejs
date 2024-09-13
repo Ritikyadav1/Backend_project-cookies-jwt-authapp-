@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="w-full h-screen bg-zinc-900 text-white p-10 ">
+        <h3 class="text-3xl mb-3 ">Create user</h3>
+        <form  method="post" action="/create">
+            <input class="px-3 py-2 rounded-md bg-transparent border-2 border-zinc-800 outline-none  " type="text" name="username" placeholder="username">
+            <input class="px-3 py-2 rounded-md bg-transparent border-2 border-zinc-800 outline-none " type="email" name="email" placeholder="email">
+            <input class="px-3 py-2 rounded-md bg-transparent border-2 border-zinc-800 outline-none" type="password" name="password" placeholder="password">
+            <input class="px-3 py-2 rounded-md bg-transparent border-2 border-zinc-800 outline-none " type="number" name="age" placeholder="age">
+            <input class="px-5 py-2 rounded-md bg-blue-500" type="submit" value="create user">
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- yaha hum user se account create kara rahe hai , ek form hai jaha user ko email,password , username,age dena hai aur hum usse /create route pe send kar rahe hai mrthod (post) then hum us details ko req.body.email se uska email recieve lar sakte hai ya hum kuch bhi recieve lar sakte hai like username , email, password, age   -->
