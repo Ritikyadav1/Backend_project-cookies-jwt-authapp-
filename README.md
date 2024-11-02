@@ -63,7 +63,7 @@ The server listens on **port 3000**.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/authentication-system.git
+   git clone https://github.com/Ritikyadav1/authentication-system.git
    ```
 
 2. Install dependencies:
